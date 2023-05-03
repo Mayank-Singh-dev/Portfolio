@@ -58,7 +58,14 @@ const Experience = () => {
               <TbBrandNextjs className='experience__detail-icon' />
               <div>
               <h4>Next.js</h4>
-              <small className='text-light'>Beginner</small>
+              <small className='text-light'>Proficient</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <TbBrandNextjs className='experience__detail-icon' />
+              <div>
+              <h4>Tailwind</h4>
+              <small className='text-light'>Proficient</small>
               </div>
             </article>
           </div>

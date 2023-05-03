@@ -20,12 +20,17 @@
 .portfolio__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+    /* height: 15rem; */
 }
 
-.portfolio__item h3{
+.portfolio__item h3 {
     margin: 1.2rem 0 2rem;
 }
-
+.portfolio__item h5{
+    margin-bottom: 1rem;
+    margin-top: -1.5rem;
+    font-weight: 300;
+}
 .portfolio__item-cta{
     display: flex;
     gap: 1rem;
@@ -33,12 +38,20 @@
 
 }
 
+.techHead{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+    cursor: pointer;
+    
+}
 @media screen and (max-width:1024px) {
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
 
     }
+    
 }
 
 @media screen and (max-width:600px) {
@@ -46,4 +59,5 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
 }
